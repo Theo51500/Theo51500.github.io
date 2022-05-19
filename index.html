@@ -6,56 +6,54 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   
-  <title>Frontend Mentor | Article preview component</title>
+  <title>Frontend Mentor | Four card feature section</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; margin-top: 50px; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="left">
+
+  <div class="text">
+    <h1>Reliable, efficient delivery<span>Powered by Technology</span></h1>
+    <p>Our Artificial Intelligence powered tools use millions of project data <br> points to ensure that your project is successful</p>
+  </div>
+
+  <div class="cards">
+    <div class="card card-cyan">
+      <div class="border border-cyan"></div>
+      <h4>Supervisor</h4>
+      <p>Monitors activity to identify project roadblocks</p>
+      <img src="images/icon-supervisor.svg" alt="loupe">
     </div>
-    <div class="right">
-      <h2 class="title">
-        Shift the overall look and feel by adding these wonderful touches to furniture in your home
-      </h2>
-      <p class="text">
-        Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.
-      </p>
-      <div class="informations">
-        <div class="pic-name">
-          <div class="pic">
-            <img src="images/avatar-michelle.jpg" alt="girl">
-          </div>
-          <div class="name">
-            <p>Michelle Appleton <br> <span>28 Jun 2020</span> </p>
-          </div>
-        </div>
-        <div class="button">
-          <i class="fa-solid fa-share"></i>
-          <div class="share">
-            <span id="share">share</span>
-            <i class="fa-brands fa-facebook-square"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-pinterest"></i>
-            <div class="desing"></div>
-          </div>
-        </div>
-      </div>
+    <div class="card card-red">
+      <div class="border border-red"></div>
+      <h4>Team Builder</h4>
+      <p>Scans our talent network to create the optimal team for your project</p>
+      <img src="images/icon-team-builder.svg" alt="loupe">
+    </div>
+    <div class="card card-orange">
+      <div class="border border-orange"></div>
+      <h4>Karma</h4>
+      <p>Regularly evaluates our talent to ensure quality</p>
+      <img src="images/icon-karma.svg" alt="loupe">
+    </div>
+    <div class="card card-blue">
+      <div class="border border-blue"></div>
+      <h4>Calculator</h4>
+      <p>Uses data from past projects to provide better delivery estimates</p>
+      <img src="images/icon-calculator.svg" alt="loupe">
     </div>
   </div>
 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Dexx</a>.
-  </div>
-
-  <script src="main.js"></script>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://twitter.com/code_dexx">Dexx</a>.
+    </p>
+  </footer>
 </body>
 </html>
