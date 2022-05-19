@@ -5,56 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">  
-  <title>Frontend Mentor | FAQ Accordion Card</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <title>Frontend Mentor | Article preview component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; margin-top: 20px;}
-    .attribution a { color: hsl(0, 0%, 100%); }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
-
   <div class="container">
     <div class="left">
-      <img id="woman" src="images/illustration-woman-online-desktop.svg " alt="img woman">
-      <img id="shadow" src="images/bg-pattern-desktop.svg " alt="bg">
     </div>
-
-    <img id="box" src="images/illustration-box-desktop.svg " alt="box">
-
     <div class="right">
-      <h2>FAQ</h2>
-      <ul class="questions">
-        <li class="li-content">
-          <p class="title">How many team members can I invite? <span><img width="10px" src="images/icon-arrow-down.svg" alt="arrow_down"></span></p>
-          <p class="text">You can invite up to 2 additional users on the Free plan. There is no limit on 
-          team members for the Premium plan.</p>
-        </li>
-        <li class="li-content">
-          <p class="title">What is the maximum file upload size?<span><img width="10px" src="images/icon-arrow-down.svg" alt="arrow_down"></span></p>
-          <p class="text">No more than 2GB. All files in your account must fit your allotted storage space.</p>
-        </li>
-        <li class="li-content">
-          <p class="title">How do I reset my password?<span><img width="10px" src="images/icon-arrow-down.svg" alt="arrow_down"></span></p>
-          <p class="text">Click “Forgot password” from the login page or “Change password” from your profile page.
-          A reset link will be emailed to you.</p>
-        </li>
-        <li class="li-content">
-          <p class="title">Can I cancel my subscription?<span><img width="10px" src="images/icon-arrow-down.svg" alt="arrow_down"></span></p>
-          <p class="text">Yes! Send us a message and well process your request no questions asked.</p>
-        </li>
-        <li class="li-content">
-          <p class="title">Do you provide additional support?<span><img width="10px" src="images/icon-arrow-down.svg" alt="arrow_down"></span></p>
-          <p class="text">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
-        </li>
-      </ul>
+      <h2 class="title">
+        Shift the overall look and feel by adding these wonderful touches to furniture in your home
+      </h2>
+      <p class="text">
+        Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.
+      </p>
+      <div class="informations">
+        <div class="pic-name">
+          <div class="pic">
+            <img src="images/avatar-michelle.jpg" alt="girl">
+          </div>
+          <div class="name">
+            <p>Michelle Appleton <br> <span>28 Jun 2020</span> </p>
+          </div>
+        </div>
+        <div class="button">
+          <i class="fa-solid fa-share"></i>
+          <div class="share">
+            <span id="share">share</span>
+            <i class="fa-brands fa-facebook-square"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <div class="desing"></div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
-
-
+  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Dexx</a>.
