@@ -105,3 +105,25 @@ body {
 .card-orange .border-orange {
     background-color: hsl(34, 97%, 64%);
 }
+
+@media screen and (max-width:885px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text h1 {
+        font-size: 1.3rem;
+    }
+
+    .text p {
+        font-size: .7rem;
+        width: 80%;
+        margin: 10px auto;
+    }
+}
